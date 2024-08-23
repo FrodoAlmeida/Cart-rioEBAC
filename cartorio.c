@@ -137,6 +137,8 @@
 					printf("\t2 - Consultar nomes\n\n");
 				
 						printf("\t3 - Deletar nomes\n\n"); // Fim do menu
+						
+							printf("\t4 - Sair do Aplicativo!\n\n");
 					
 							printf("Opção: \t"); // Coloquei \t pra ficar mais bonito
 						
@@ -156,6 +158,11 @@
 			
 			case 3:
 			deletar();
+			break;
+			
+			case 4:
+			printf("Obrigado por utilizar o App, Obrigado e volte sempre!\n");
+			return 0;
 			break;
 			
 			default:	
